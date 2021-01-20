@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--Author:James Ford
+    jamford1@uat.edu
+    wk 2-1 assignment
+-->
+<html>
+
+<head>
+    <title>
+        UATSpace Page countdownTimer 
+    </title>
+    
+</head>
+
+<body>
+    <img src="UATspaceLogo-2-1.jpg">
+    <h1>
+        UATSPACE program
+    </h1>
+    <script>
+    document.write("I am Morphius");
+    </script>
+
+    <p>
+        By choosing a pill button you will change your life forever
+    </p>
+      
+    
+     <br>
+     <p id="ctdnTimer">Countdown TImer Results</p>
+    </br>
+        <button onclick="countdownTimer();">start</button><button>stop</button>
+        <script> 
+        function countdownTimer() {
+            //start at 10 sec
+            setTimeout(function(){
+                document.getElementById("ctdnTimer").innerHTML = "50";  
+            }, 0000);
+           
+            //9 sec
+            setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "45";  
+             }, 5000);
+        
+            setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "40";  
+             }, 10000);
+            
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "35";  
+             }, 15000);
+            
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "30";  
+             }, 20000);
+
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "25";  
+             }, 25000);
+
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "20";  
+             }, 30000);
+
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "15";  
+             }, 35000);
+
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "10";  
+             }, 40000);
+             
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "5";  
+             }, 45000);
+
+             setTimeout(function()
+            {document.getElementById("ctdnTimer").innerHTML = "0";  
+             }, 50000);
+        }       
+
+        </script>
+</body>
+
+</html>
